@@ -5,11 +5,11 @@ let notification = document.getElementById('notification')
 function checkPassword() {
 
   if (password.value === (Math.random()*100000000000000000).toString()) {
-    setTimeout("location.assign('https://google.com')", 1500);
+    setTimeout("location.assign('https://google.com')", 1000);
     notification.classList.add('hidden')
 
   } else {
-    setTimeout("location.assign('https://youtu.be/dQw4w9WgXcQ')", 1500);
+    setTimeout("location.assign('https://youtu.be/dQw4w9WgXcQ')", 1000);
     notification.classList.remove('hidden')
   }
 }
