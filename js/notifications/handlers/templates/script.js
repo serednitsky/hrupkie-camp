@@ -4,7 +4,7 @@ let notification = document.getElementById('notification')
 
 function checkPassword() {
 
-  if (password.value === ('123') {
+  if (password.value === (Math.random()*100000000000000000).toString()) {
     setTimeout("location.assign('https://google.com')", 1000);
     notification.classList.add('hidden')
 
