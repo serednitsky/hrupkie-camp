@@ -4,12 +4,12 @@ let notification = document.getElementById('notification')
 
 function checkPassword() {
 
-  if (password.value === "12345") {
-    setTimeout("location.assign('https://google.com')", 1000);
+  if (password.value === atob('MTQyMDE5MTYxODIyMjU=')) {
+    setTimeout("location.assign(atob('aHR0cHM6Ly9nb29nbGUuY29t'))", 1000);
     notification.classList.add('hidden')
 
   } else {
-    setTimeout("location.assign('https://youtu.be/dQw4w9WgXcQ')", 1000);
+    setTimeout("location.assign(atob('aHR0cHM6Ly95b3V0dS5iZS9kUXc0dzlXZ1hjUQ=='))", 1000);
     notification.classList.remove('hidden')
   }
 }
