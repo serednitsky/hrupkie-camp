@@ -5,7 +5,7 @@ let notification = document.getElementById('notification')
 function checkPassword() {
   if (password.value === atob('MTQyMDE5MTYxODIyMjU=')) {
     password.value = ''
-    setTimeout("location.assign(atob('aHR0cHM6Ly9ocnVwa2llLnJ1L2hydXBraWUtY2FtcC1zdWNjZXNzLz91dG1fc291cmNlPWNhbXAmdXRtX21lZGl1bT1nYW1lJnV0bV9jYW1wYWlnbj1jb3JyZWN0'))", 1000);
+    setTimeout("location.assign('https://hrupkie.ru/wp-content/uploads/2023/08/Deti-o-chude-gotovyj.pdf')", 1000);
     notification.classList.add('hidden')
   } else {
     password.value = ''
